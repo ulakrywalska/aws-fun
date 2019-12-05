@@ -3,7 +3,7 @@ service: notes-app-api
 
 # Create an optimized package for our functions 
 package:
-  individually: true
+  individually: true 
 
 plugins:
   - serverless-bundle # Package our functions with Webpack
